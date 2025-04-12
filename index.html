@@ -4,7 +4,6 @@
   </head>
   <body>
 <a-scene>
-  <!-- Cilindros distribuidos alrededor -->
   <a-cylinder position="-4 0.5 -3" radius="0.8" height="1" color="#81f4e1"
               animation="property: position; to: -4 0.5 -5; dur: 4000; dir: alternate; loop: true"></a-cylinder>
 
@@ -29,13 +28,10 @@
   <a-cylinder position="-3 1 -6" radius="0.3" height="2" color="#56cbf9"></a-cylinder>
   <a-cylinder position="3 1.5 -5" radius="1" height="3" color="#ff729f"></a-cylinder>
 
-  <!-- Suelo amplio -->
   <a-plane position="0 0 0" rotation="-90 0 0" width="50" height="50" color="#ffffff"></a-plane>
 
-  <!-- Cielo dorado suave -->
   <a-sky color="#d5c67a"></a-sky>
 
-  <!-- Cámara central con controles -->
   <a-entity camera wasd-controls look-controls position="0 1.6 0"></a-entity>
 </a-scene>
 
